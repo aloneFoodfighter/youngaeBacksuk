@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BF84A4F-C3CA-4818-89EF-618EF11D7B28}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>D3DX_Base</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AniSingleton.h" />
+    <ClInclude Include="BezierClass.h" />
+    <ClInclude Include="bGrid.h" />
+    <ClInclude Include="Body.h" />
+    <ClInclude Include="Bottom_Palm.h" />
+    <ClInclude Include="cCamera.h" />
+    <ClInclude Include="cCube.h" />
+    <ClInclude Include="cCubeMan.h" />
+    <ClInclude Include="cDeviceManager.h" />
+    <ClInclude Include="cGrid.h" />
+    <ClInclude Include="cLeftArm.h" />
+    <ClInclude Include="cLeftLeg.h" />
+    <ClInclude Include="cMainGame.h" />
+    <ClInclude Include="cRightArm.h" />
+    <ClInclude Include="cRightLeg.h" />
+    <ClInclude Include="CubeBoy.h" />
+    <ClInclude Include="CubeClass.h" />
+    <ClInclude Include="CubePerson.h" />
+    <ClInclude Include="D3DX_Base.h" />
+    <ClInclude Include="fGrid.h" />
+    <ClInclude Include="FireCracker.h" />
+    <ClInclude Include="FireCube.h" />
+    <ClInclude Include="Head.h" />
+    <ClInclude Include="IndexFinger.h" />
+    <ClInclude Include="Index_Second.h" />
+    <ClInclude Include="Index_Third.h" />
+    <ClInclude Include="Joint.h" />
+    <ClInclude Include="KeyManager.h" />
+    <ClInclude Include="LightTest.h" />
+    <ClInclude Include="LittleFinger.h" />
+    <ClInclude Include="Little_Second.h" />
+    <ClInclude Include="Little_Third.h" />
+    <ClInclude Include="mapTool.h" />
+    <ClInclude Include="mCube.h" />
+    <ClInclude Include="mGrid.h" />
+    <ClInclude Include="MiddleFinger.h" />
+    <ClInclude Include="Middle_Second.h" />
+    <ClInclude Include="Middle_Third.h" />
+    <ClInclude Include="Palm.h" />
+    <ClInclude Include="RandomSingleton.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RingFinger.h" />
+    <ClInclude Include="Ring_Second.h" />
+    <ClInclude Include="Ring_Third.h" />
+    <ClInclude Include="Side_Palm.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Thumb.h" />
+    <ClInclude Include="Thumb_Second.h" />
+    <ClInclude Include="Top_Palm.h" />
+    <ClInclude Include="Wrist.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AniSingleton.cpp" />
+    <ClCompile Include="BezierClass.cpp" />
+    <ClCompile Include="bGrid.cpp" />
+    <ClCompile Include="Body.cpp" />
+    <ClCompile Include="Bottom_Palm.cpp" />
+    <ClCompile Include="cCamera.cpp" />
+    <ClCompile Include="cCube.cpp" />
+    <ClCompile Include="cCubeMan.cpp" />
+    <ClCompile Include="cDeviceManager.cpp" />
+    <ClCompile Include="cGrid.cpp" />
+    <ClCompile Include="cLeftArm.cpp" />
+    <ClCompile Include="cLeftLeg.cpp" />
+    <ClCompile Include="cMainGame.cpp" />
+    <ClCompile Include="cRightArm.cpp" />
+    <ClCompile Include="cRightLeg.cpp" />
+    <ClCompile Include="CubeBoy.cpp" />
+    <ClCompile Include="CubeClass.cpp" />
+    <ClCompile Include="CubePerson.cpp" />
+    <ClCompile Include="D3DX_Base.cpp" />
+    <ClCompile Include="fGrid.cpp" />
+    <ClCompile Include="FireCracker.cpp" />
+    <ClCompile Include="FireCube.cpp" />
+    <ClCompile Include="Head.cpp" />
+    <ClCompile Include="IndexFinger.cpp" />
+    <ClCompile Include="Index_Second.cpp" />
+    <ClCompile Include="Index_Third.cpp" />
+    <ClCompile Include="Joint.cpp" />
+    <ClCompile Include="KeyManager.cpp" />
+    <ClCompile Include="LightTest.cpp" />
+    <ClCompile Include="LittleFinger.cpp" />
+    <ClCompile Include="Little_Second.cpp" />
+    <ClCompile Include="Little_Third.cpp" />
+    <ClCompile Include="mapTool.cpp" />
+    <ClCompile Include="mCube.cpp" />
+    <ClCompile Include="mGrid.cpp" />
+    <ClCompile Include="MiddleFinger.cpp" />
+    <ClCompile Include="Middle_Second.cpp" />
+    <ClCompile Include="Middle_Third.cpp" />
+    <ClCompile Include="Palm.cpp" />
+    <ClCompile Include="RandomSingleton.cpp" />
+    <ClCompile Include="RingFinger.cpp" />
+    <ClCompile Include="Ring_Second.cpp" />
+    <ClCompile Include="Ring_Third.cpp" />
+    <ClCompile Include="Side_Palm.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Thumb.cpp" />
+    <ClCompile Include="Thumb_Second.cpp" />
+    <ClCompile Include="Top_Palm.cpp" />
+    <ClCompile Include="Wrist.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3DX_Base.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D3DX_Base.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

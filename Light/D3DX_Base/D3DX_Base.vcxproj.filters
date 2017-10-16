@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Singleton">
+      <UniqueIdentifier>{889ca4b2-ad38-4eb3-9f1d-902696ed5c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand">
+      <UniqueIdentifier>{d0c402e8-c657-4b3d-9e2f-99893b00daf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Finger">
+      <UniqueIdentifier>{75277a81-697f-433d-b69c-357d18257384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Finger\Index">
+      <UniqueIdentifier>{9ca9df88-6149-4e7a-ab14-d33997fa6bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Finger\Thumb">
+      <UniqueIdentifier>{61cb3505-227b-4586-92ad-59e14583ac06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Finger\Little">
+      <UniqueIdentifier>{aa9f678e-cd2d-4ec5-8ad6-7121eb53fdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Finger\Middle">
+      <UniqueIdentifier>{b72074c1-26ce-4583-90f9-8ff7fd333c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Finger\Ring">
+      <UniqueIdentifier>{2fbe7253-2919-4db6-9350-46103f544b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Joint">
+      <UniqueIdentifier>{7f95146b-dde1-4b70-b537-fb618fe86bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Wrist">
+      <UniqueIdentifier>{234a6f12-20bc-4e6f-8969-558ae83da0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hand\Palm">
+      <UniqueIdentifier>{389dc84f-7a9f-4a47-8ab6-734e66477179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CubeMan">
+      <UniqueIdentifier>{847628e1-11cb-4b28-840f-f291484364ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CubeMan\Body">
+      <UniqueIdentifier>{94d79816-e0fd-4c19-96a0-42ce7fd2b6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CubeMan\Head">
+      <UniqueIdentifier>{94fb693e-e3d3-40e7-bcc1-7b9441facc8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CubeMan\LeftArm">
+      <UniqueIdentifier>{7e2acfe0-b2e3-4ccc-8e1a-e2a573e6a182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CubeMan\RightArm">
+      <UniqueIdentifier>{0530f56d-187d-440f-b682-3c358bf9d4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CubeMan\LeftLeg">
+      <UniqueIdentifier>{44bc63f4-d342-4842-a6c8-68e70f6b1881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CubeMan\RightLeg">
+      <UniqueIdentifier>{cce04bff-5fe5-46e6-aa24-10e4c07fec0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Singleton\Bezier">
+      <UniqueIdentifier>{6dbeb3f6-5a67-4d98-a443-a0a01a733a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MapTool">
+      <UniqueIdentifier>{743668b9-44f5-4922-98ee-751bc4fe8dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MapTool\Grid">
+      <UniqueIdentifier>{94ddeb8a-4111-4af0-88fa-9ac36b59ce4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MapTool\Cube">
+      <UniqueIdentifier>{9e38b1ee-75f4-472c-86a6-22d563b248c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CubeMan">
+      <UniqueIdentifier>{cc76727a-06e2-4c34-acce-4f275b1d71d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CubeMan\CubeMan">
+      <UniqueIdentifier>{78919b2f-0076-4ef9-bfc0-487a18b2cbef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MapTool\MapTool">
+      <UniqueIdentifier>{3dd98ff9-b817-468d-b942-808a186a9641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FireCracker">
+      <UniqueIdentifier>{5ac7213c-5416-48a3-9456-322163e25ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FireCracker\FireCracker">
+      <UniqueIdentifier>{27d784fd-76ea-4151-ba73-794c07476ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FireCracker\Grid">
+      <UniqueIdentifier>{0717dc3a-0a79-4186-ab32-cf908d0242c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FireCracker\FireCube">
+      <UniqueIdentifier>{685469c9-7836-4e58-a0e2-9e5df4ea374b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX_Base.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AniSingleton.h">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexFinger.h">
+      <Filter>Hand\Finger\Index</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleFinger.h">
+      <Filter>Hand\Finger\Middle</Filter>
+    </ClInclude>
+    <ClInclude Include="RingFinger.h">
+      <Filter>Hand\Finger\Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="LittleFinger.h">
+      <Filter>Hand\Finger\Little</Filter>
+    </ClInclude>
+    <ClInclude Include="Thumb.h">
+      <Filter>Hand\Finger\Thumb</Filter>
+    </ClInclude>
+    <ClInclude Include="Index_Second.h">
+      <Filter>Hand\Finger\Index</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Second.h">
+      <Filter>Hand\Finger\Middle</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring_Second.h">
+      <Filter>Hand\Finger\Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="Little_Second.h">
+      <Filter>Hand\Finger\Little</Filter>
+    </ClInclude>
+    <ClInclude Include="Thumb_Second.h">
+      <Filter>Hand\Finger\Thumb</Filter>
+    </ClInclude>
+    <ClInclude Include="Index_Third.h">
+      <Filter>Hand\Finger\Index</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Third.h">
+      <Filter>Hand\Finger\Middle</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring_Third.h">
+      <Filter>Hand\Finger\Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="Little_Third.h">
+      <Filter>Hand\Finger\Little</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>Hand\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrist.h">
+      <Filter>Hand\Wrist</Filter>
+    </ClInclude>
+    <ClInclude Include="Palm.h">
+      <Filter>Hand\Palm</Filter>
+    </ClInclude>
+    <ClInclude Include="Top_Palm.h">
+      <Filter>Hand\Palm</Filter>
+    </ClInclude>
+    <ClInclude Include="Side_Palm.h">
+      <Filter>Hand\Palm</Filter>
+    </ClInclude>
+    <ClInclude Include="Bottom_Palm.h">
+      <Filter>Hand\Palm</Filter>
+    </ClInclude>
+    <ClInclude Include="LightTest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeClass.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>CubeMan\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>CubeMan\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="cLeftArm.h">
+      <Filter>CubeMan\LeftArm</Filter>
+    </ClInclude>
+    <ClInclude Include="cRightArm.h">
+      <Filter>CubeMan\RightArm</Filter>
+    </ClInclude>
+    <ClInclude Include="cLeftLeg.h">
+      <Filter>CubeMan\LeftLeg</Filter>
+    </ClInclude>
+    <ClInclude Include="cRightLeg.h">
+      <Filter>CubeMan\RightLeg</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierClass.h">
+      <Filter>소스 파일\Singleton\Bezier</Filter>
+    </ClInclude>
+    <ClInclude Include="bGrid.h">
+      <Filter>소스 파일\Singleton\Bezier</Filter>
+    </ClInclude>
+    <ClInclude Include="cCube.h">
+      <Filter>Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeBoy.h">
+      <Filter>소스 파일\CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="CubePerson.h">
+      <Filter>소스 파일\CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="mGrid.h">
+      <Filter>소스 파일\MapTool\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="mCube.h">
+      <Filter>소스 파일\MapTool\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeMan.h">
+      <Filter>소스 파일\CubeMan\CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="mapTool.h">
+      <Filter>소스 파일\MapTool\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="FireCracker.h">
+      <Filter>소스 파일\FireCracker\FireCracker</Filter>
+    </ClInclude>
+    <ClInclude Include="fGrid.h">
+      <Filter>소스 파일\FireCracker\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="FireCube.h">
+      <Filter>소스 파일\FireCracker\FireCube</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSingleton.h">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DX_Base.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AniSingleton.cpp">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexFinger.cpp">
+      <Filter>Hand\Finger\Index</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleFinger.cpp">
+      <Filter>Hand\Finger\Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="RingFinger.cpp">
+      <Filter>Hand\Finger\Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="LittleFinger.cpp">
+      <Filter>Hand\Finger\Little</Filter>
+    </ClCompile>
+    <ClCompile Include="Thumb.cpp">
+      <Filter>Hand\Finger\Thumb</Filter>
+    </ClCompile>
+    <ClCompile Include="Index_Second.cpp">
+      <Filter>Hand\Finger\Index</Filter>
+    </ClCompile>
+    <ClCompile Include="Middle_Second.cpp">
+      <Filter>Hand\Finger\Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring_Second.cpp">
+      <Filter>Hand\Finger\Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="Little_Second.cpp">
+      <Filter>Hand\Finger\Little</Filter>
+    </ClCompile>
+    <ClCompile Include="Thumb_Second.cpp">
+      <Filter>Hand\Finger\Thumb</Filter>
+    </ClCompile>
+    <ClCompile Include="Index_Third.cpp">
+      <Filter>Hand\Finger\Index</Filter>
+    </ClCompile>
+    <ClCompile Include="Middle_Third.cpp">
+      <Filter>Hand\Finger\Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring_Third.cpp">
+      <Filter>Hand\Finger\Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="Little_Third.cpp">
+      <Filter>Hand\Finger\Little</Filter>
+    </ClCompile>
+    <ClCompile Include="Joint.cpp">
+      <Filter>Hand\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="Wrist.cpp">
+      <Filter>Hand\Wrist</Filter>
+    </ClCompile>
+    <ClCompile Include="Palm.cpp">
+      <Filter>Hand\Palm</Filter>
+    </ClCompile>
+    <ClCompile Include="Top_Palm.cpp">
+      <Filter>Hand\Palm</Filter>
+    </ClCompile>
+    <ClCompile Include="Side_Palm.cpp">
+      <Filter>Hand\Palm</Filter>
+    </ClCompile>
+    <ClCompile Include="Bottom_Palm.cpp">
+      <Filter>Hand\Palm</Filter>
+    </ClCompile>
+    <ClCompile Include="LightTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeClass.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>CubeMan\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>CubeMan\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="cLeftArm.cpp">
+      <Filter>CubeMan\LeftArm</Filter>
+    </ClCompile>
+    <ClCompile Include="cRightArm.cpp">
+      <Filter>CubeMan\RightArm</Filter>
+    </ClCompile>
+    <ClCompile Include="cLeftLeg.cpp">
+      <Filter>CubeMan\LeftLeg</Filter>
+    </ClCompile>
+    <ClCompile Include="cRightLeg.cpp">
+      <Filter>CubeMan\RightLeg</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierClass.cpp">
+      <Filter>소스 파일\Singleton\Bezier</Filter>
+    </ClCompile>
+    <ClCompile Include="bGrid.cpp">
+      <Filter>소스 파일\Singleton\Bezier</Filter>
+    </ClCompile>
+    <ClCompile Include="cCube.cpp">
+      <Filter>Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeBoy.cpp">
+      <Filter>소스 파일\CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="CubePerson.cpp">
+      <Filter>소스 파일\CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="mGrid.cpp">
+      <Filter>소스 파일\MapTool\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="mCube.cpp">
+      <Filter>소스 파일\MapTool\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeMan.cpp">
+      <Filter>소스 파일\CubeMan\CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="mapTool.cpp">
+      <Filter>소스 파일\MapTool\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="FireCracker.cpp">
+      <Filter>소스 파일\FireCracker\FireCracker</Filter>
+    </ClCompile>
+    <ClCompile Include="fGrid.cpp">
+      <Filter>소스 파일\FireCracker\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="FireCube.cpp">
+      <Filter>소스 파일\FireCracker\FireCube</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSingleton.cpp">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3DX_Base.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="D3DX_Base.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

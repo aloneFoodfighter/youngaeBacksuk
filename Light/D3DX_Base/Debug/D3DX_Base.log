@@ -1,0 +1,12 @@
+﻿  mCube.cpp
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(12): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(42): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(54): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(177): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(256): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(266): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(288): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(304): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\최민지\desktop\sga 3d\숙제\light\d3dx_base\mcube.cpp(324): warning C4101: 'cubeSize' :참조되지 않은 지역 변수입니다.
+  D3DX_Base.vcxproj -> C:\Users\최민지\Desktop\SGA 3D\숙제\Light\Debug\D3DX_Base.exe
+  D3DX_Base.vcxproj -> C:\Users\최민지\Desktop\SGA 3D\숙제\Light\Debug\D3DX_Base.pdb (Full PDB)
